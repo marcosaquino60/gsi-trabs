@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark fixed-top p-2 ">
+    <div class="col-6 text-center">
+      <a class="text-decoration-none text-white" href="hello.html">Home</a>
+    </div>
+    <div class="col-6 text-center" >
+      <a class="text-decoration-none text-white" href="index.html">Login</a>
+    </div>
+    
+  </nav>
+
+  <div class="container mt-4 mb-4 vh-100">
+    <div class="row align-items-center justify-content-center h-100">
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form action="" class="loginForm p-4 p-md-5 border rounded-3 bg-light">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" >
+            <label for="email" class="form-label">E-mail</label>
+            <div class="alert alert-warning collapse" role="alert" id="emailError"></div>
+          </div>
+          
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="password" name="password" placeholder="Senha">
+            <label for="password" class="form-label">Senha</label>
+            <div class="alert alert-warning collapse" role="alert" id="passwordError"></div>
+          </div>
+    
+          <button type="submit" class="btn btn-primary w-100">Entrar</button>
+          
+        </form>
+      </div>
+    </div>
+    
+  </div>
+  <footer class="footer fixed-bottom bg-dark text-white text-center p-2">
+    Trabalho 5 de Programação para Internet @ UFU – Marcos Nunes Aquino
+  </footer>
+  <script src="script.js"></script>
+  <script src="bootstrap.min.js"></script>
+
+</body>
+</html>
